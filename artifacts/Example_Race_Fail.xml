@@ -1,0 +1,36 @@
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ghi789fail" />
+  <meta>
+    <profile value="https://projectronin.io/fhir/StructureDefinition/CTDM-Observation" />
+    <tag>
+      <system value="1a056f49-0e24-4eca-93bf-32cf3678141d" />
+      <version value="1" />
+    </tag>
+  </meta>
+  <extension url="https://projectronin.io/fhir/StructureDefinition/CTDMExtension/subjectId">
+    <valueString value="test3id" />
+  </extension>
+  <extension url="https://projectronin.io/fhir/StructureDefinition/CTDMExtension/DataTransformTimestamp">
+    <valueDateTime value="2023-11-12" />
+  </extension>
+  <status value="final" />
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct" />
+      <code value="103579009" />
+      <display value="Race (observable entity)" />
+    </coding>
+    <text value="Race" />
+  </code>
+  <valueCodeableConcept>
+    <coding>
+      <system value="urn:oid:2.16.840.1.113883.6.238" />
+      <code value="2028-9" />
+      <display value="Asian" />
+    </coding>
+    <text value="Asian" />
+  </valueCodeableConcept>
+  <note>
+    <text value="OMB Race Category" />
+  </note>
+</Observation>
