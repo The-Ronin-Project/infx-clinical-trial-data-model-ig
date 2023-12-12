@@ -1,0 +1,31 @@
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="def456fail" />
+  <meta>
+    <profile value="https://projectronin.io/fhir/StructureDefinition/CTDM-Observation" />
+    <tag>
+      <system value="10f8c49a-635b-4928-aee6-f6e47c2e7c50" />
+      <version value="1" />
+      <display value="Birth Date" />
+    </tag>
+  </meta>
+  <extension>
+    <url value="https://projectronin.io/fhir/StructureDefinition/CTDMExtension/subjectId" />
+    <valueString value="test1id" />
+  </extension>
+  <status value="final" />
+  <category>
+    <coding>
+      <display value="Demographics" />
+    </coding>
+    <text value="Demographics" />
+  </category>
+  <code>
+    <coding>
+      <code value="21112-8" />
+      <system value="https://loinc.org" />
+      <display value="Birth date" />
+    </coding>
+  </code>
+  <effectiveDateTime value="2023-11-10T21:56:54.671Z" />
+  <valueDateTime value="1983-04-04" />
+</Observation>
