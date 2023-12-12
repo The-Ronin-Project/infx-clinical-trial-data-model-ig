@@ -1,4 +1,0 @@
-{
-  "Name": "TreeTable",
-  "Include": [ "styles/common", "styles/treetable" ]
-}
